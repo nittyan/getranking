@@ -45,7 +45,7 @@ def parse_page(file, html):
 				try:
 					file.write('%d,%s' % (__main__.rank, tag['title']))
 				except UnicodeEncodeError:
-					file.write('Encode Error')
+					file.write('%d,%s' % (__main__.rank, 'Encode Error'))
 				file.write('\n')
 				__main__.rank += 1
 
