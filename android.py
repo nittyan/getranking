@@ -13,9 +13,12 @@ urls = {
     'top_paid_in_games':
     ('https://play.google.com/store/apps/'
         'category/GAME/collection/topselling_paid?start=%(start)d&num=24'),
-    "top_free_in_games":
+    'top_free_in_games':
     ('https://play.google.com/store/apps/'
-        'category/GAME/collection/topselling_free?start=%(start)d&num=24')
+        'category/GAME/collection/topselling_free?start=%(start)d&num=24'),
+    'top_grossing':
+    ('https://play.google.com/store/apps/'
+        'category/GAME/collection/topgrossing?start=%(start)d&num=24')
 }
 rank = 1
 
